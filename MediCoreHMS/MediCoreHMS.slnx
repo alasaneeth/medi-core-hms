@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MediCoreHMS.Application/MediCoreHMS.Application.csproj" />
+  <Project Path="MediCoreHMS.Domain/MediCoreHMS.Domain.csproj" />
+  <Project Path="MediCoreHMS.Infrastructure/MediCoreHMS.Infrastructure.csproj" />
+  <Project Path="MediCoreHMS.Web/MediCoreHMS.Web.csproj" />
+</Solution>
