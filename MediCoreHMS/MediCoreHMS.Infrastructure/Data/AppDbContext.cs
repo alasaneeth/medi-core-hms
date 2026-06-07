@@ -24,5 +24,9 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Patient>().HasQueryFilter(x => !x.IsDeleted);
         modelBuilder.Entity<Doctor>().HasQueryFilter(x => !x.IsDeleted);
         modelBuilder.Entity<Appointment>().HasQueryFilter(x => !x.IsDeleted);
+
+        modelBuilder.Entity<Doctor>()
+    .Property(d => d.ConsultationFee)
+    .HasColumnType("decimal(18,2)");
     }
 }
